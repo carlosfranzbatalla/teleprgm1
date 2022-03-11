@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-miVariable = "hola programacion 1"
+from flask_security import ForgotPasswordForm
 
-print(miVariable)
-print("segundo hola programacion 1")
+
+vMiNombre = "Carlos F. Batalla V."
+print("Hola Prog1, soy ", vMiNombre)
