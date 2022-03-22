@@ -82,10 +82,10 @@ Use el indice para la modificación singular de un valor de la lista.  La sintax
 `<Lista>[indice] = <valor>`
 
 ```
-vDecanatos[4] = 'pirita'
+vDecanatos[4] = 'ingenieria civil'
 
 print(vDecanatos)
-['agronomia', 'ciencias economicas', 'ciencias y tecnologia', 'ciencias veterinarias', 'pirita']
+['agronomia', 'ciencias economicas', 'ciencias y tecnologia', 'ciencias veterinarias', 'ingenieria civil']
 ```
 
 o
@@ -94,7 +94,7 @@ o
 vDecanatos[-5] = 'ingenieria civil'
 
 print(vDecanatos)
-['ingenieria civil', 'ciencias economicas', 'ciencias y tecnologia', 'ciencias veterinarias', 'pirita']
+['ingenieria civil', 'ciencias economicas', 'ciencias y tecnologia', 'ciencias veterinarias', 'ingenieria civil']
 ```
 
 **modificación por rangos:**
@@ -106,7 +106,7 @@ Ejem.:
 ```
 vDecanatos[2:4]=['agronomia','humanidades']
 print(vDecanatos)
-['ingenieria civil', 'ciencias economicas', 'agronomia', 'humanidades', 'pirita']
+['ingenieria civil', 'ciencias economicas', 'agronomia', 'humanidades', 'ingenieria civil']
 ```
 
 Tenga en cuenta:
@@ -155,7 +155,7 @@ print(vDecanatos)
 
 eliminación por índice:
 
-- 4. *pop*
+4. *pop*
 
 ```
 vDecanatos.pop(4)
@@ -164,7 +164,7 @@ print(vDecanatos)
 ['ciencias de la salud', 'ciencias economicas', 'ciencias y tecnologia', 'ciencias veterinarias', 'ingenieria civil']
 ```
 
-- 5. *del*
+5. *del*
 
 ```
 ['ciencias de la salud', 'ciencias economicas', 'ciencias y tecnologia', 'ciencias veterinarias', 'ingenieria civil']
@@ -196,7 +196,7 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 ```
 
-## 2 Ciclos. Iterando sobre una secuencia. For
+## 2 Ciclos. Iterando sobre una secuencia. La sentencia `for`
 
 Un ciclo consiste en la ejecución repetida de un bloque de código hasta que, determinada condición es alcanzada.
 Cada iteración sobre una secuencia es un ciclo.  
@@ -238,7 +238,9 @@ Las directivas que seguiremos en esta cátedra para la asignación de nombres, l
 
 > Martin, R. C. (2009). *Código Limpio. Manual de estilo para el desarrollo ágil de software.* Upper Saddle River, NJ: Prentice Hall. ISBN: 978-84-415-3210-6
 
-para ser descargado:[aquí](https://drive.google.com/file/d/1izYMrQ631mkZD3vkpAQ-jgAxuCfFieMu/view?usp=sharing).
+[aquí](https://drive.google.com/file/d/1sPk-jalJA95Nk0v8ZyNcJ9KqqsCab7X0/view?usp=sharing)
+
+Si le interesa el libro completo:[aquí](https://drive.google.com/file/d/1izYMrQ631mkZD3vkpAQ-jgAxuCfFieMu/view?usp=sharing).
 
 
 
