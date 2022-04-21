@@ -1,4 +1,4 @@
-# Variables Tipo Secuencia - Ciclos
+# 2 Variables Tipo Secuencia - Ciclos
 
 ## 1 Variables Tipo Secuencia
 
